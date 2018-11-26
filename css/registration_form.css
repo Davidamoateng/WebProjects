@@ -1,0 +1,113 @@
+body{
+	background:url(../images/bg.jpg)no-repeat 0px 0px;
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+	letter-spacing: 3px;
+    margin: 25px 0;
+    color: #c0c0c0;
+    font-family: 'Old Standard TT', serif;
+}
+.form{
+	padding: 2em 1em 2em 2em;
+    width: 720px;
+	background: rgba(4, 4, 4, 0.55);
+	margin: auto;
+	margin-top: 50px;
+	box-shadow: 3px 3px #1e8dffb8;
+}
+.w3l-grid1,.w3l-grid2{
+    float: left;
+    width: 49%;
+}
+i.fa{
+	width: 5%;
+}
+
+label.w3l-set {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 2px;
+    color: #3ce0b4;
+	cursor: pointer;
+}
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    line-height: 1.5;
+}
+.w3ls-submit {
+    text-align: center;
+    margin: 10px 0 0;
+}
+input[type="text"], input[type="email"] {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+	width: 93%;
+	font-family: 'PT Sans Caption', sans-serif;
+    background: rgba(255, 255, 255, 0);
+    color: #999;
+}
+select.form-control ,select.form-contro2,select.form-contro3{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    width: 93%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    background: rgba(255, 255, 255, 0);
+	color: #999;
+}
+option {
+    background: #999;
+    color: #fff;
+}
+.w3l-div,.w3l-div1 {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 0 10px;
+    margin: 10px 0;
+    width: 96%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-style: double;
+    background: rgba(255, 255, 255, 0);
+    color: #999;
+}
+.w3ls-submit input[type="submit"] {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    outline: none;
+    border: none;
+	cursor: pointer;
+	color: #fff;
+	background: #03a9f475;
+	font-family: 'PT Sans Caption', sans-serif;
+}
+input[type="submit"]:hover{
+	color: #fff;
+	background: #364fd8;
+}
